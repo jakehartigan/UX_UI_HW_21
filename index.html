@@ -6,6 +6,17 @@
         <meta name="description" content="" />
         <meta name="author" content="" />
         <title>Hiking & Stuff</title>
+        <script>
+            yarn add @hotjar/browser
+            import Hotjar from '@hotjar/browser'
+        </script>
+        <script>
+            const siteId = 2419751;
+            const hotjarVersion = 6;
+
+        Hotjar.init(siteId, hotjarVersion);
+        </script>
+
             <!-- Hotjar Tracking Code for https://jakehartigan.github.io/ux_ui_hw_21/ -->
         <script>
             (function(h,o,t,j,a,r){
@@ -27,7 +38,7 @@
         gtag('config', 'G-HKRYTRKX28');
         </script>
         <!-- Favicon-->
-        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+        <link rel="icon" type="image/x-icon" href="assets/img/logos/Asset 1@2x.png" />
         <!-- Font Awesome icons (free version)-->
         <script src="https://use.fontawesome.com/releases/v5.15.3/js/all.js" crossorigin="anonymous"></script>
         <!-- Google fonts-->
@@ -37,10 +48,12 @@
         <link href="css/styles.css" rel="stylesheet" />
     </head>
     <body id="page-top">
+
+
         <!-- Navigation-->
         <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
             <div class="container">
-                <a class="navbar-brand" href="#page-top"><img src="/assets/img/logos/Hiking & Stuff.png" alt="Hiking&Stuff Logo img" /></a>
+                <a class="navbar-brand " href="#page-top"><img src="/assets/img/logos/logoHiker.svg" class="img-fluid" alt="Hiking&Stuff Logo img" /></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
                     Menu
                     <i class="fas fa-bars ms-1"></i>
